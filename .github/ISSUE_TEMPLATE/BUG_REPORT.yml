@@ -111,7 +111,11 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Resolution Post Mortem"
+      value: |
+        <br><br>
+        ## Resolution Post Mortem
+        > These fields can be left blank until after the bug is resolved
+        <br><br>
 
   - type: textarea
     id: root-cause
@@ -124,7 +128,7 @@ body:
         3. I tested with a minimally reproducable example and achieved the same results
         4. ...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: resolution
@@ -133,7 +137,7 @@ body:
       description: Please provide a clear and detailed explaination on what the resolution to the issue was
       placeholder: I had to update the parent pom dependency to the latest vestion to correct the issue of an older dependency version being used that is no longer functional with our current JDK verison
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: after-effects
