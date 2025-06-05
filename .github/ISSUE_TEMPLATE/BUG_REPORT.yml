@@ -113,8 +113,11 @@ body:
     attributes:
       value: |
         <br><br>
+
         ## Resolution Post Mortem
+
         > These fields can be left blank until after the bug is resolved
+
         <br><br>
 
   - type: textarea
