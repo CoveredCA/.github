@@ -76,20 +76,6 @@ body:
       default: 0
       multiple: true
 
-  - type: input
-    id: common-parent-pom-version
-    attributes:
-      label: common-parent-pom version
-      description: Please specify what version of the common-parent-pom you are using in the project where this bug occurred.
-      value: "1.1.70"
-
-  - type: input
-    id: common-core-version
-    attributes:
-      label: common-core version
-      description: Please specify what version of common-core you are using in the project where this bug occurred.
-      value: "1.1.45"
-
   - type: checkboxes
     id: agreements
     attributes:
